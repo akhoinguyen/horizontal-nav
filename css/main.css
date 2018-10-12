@@ -1,0 +1,40 @@
+html {
+  background-color: #dbd6cf;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: auto;
+  background-color: #79756f;
+}
+h1 {
+  font-family: Bevan, cursive;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+}
+.navbar li {
+  display: inline-block;
+  background-color: #713837;
+  padding: .6em;
+  margin: .3em;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  text-align: center;
+}
+
+li:hover {
+  background-color: #f33;
+}
