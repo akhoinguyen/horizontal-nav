@@ -2,6 +2,7 @@ html {
   background-color: #dbd6cf;
   box-sizing: border-box;
   line-height: 1.5;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
@@ -9,20 +10,25 @@ html {
 }
 
 body {
-  margin: auto;
+  margin: 0;
   background-color: #79756f;
+  border: 3px solid #595652;
 }
+
 h1 {
-  font-family: Bevan, cursive;
+  font-family: 'Bevan', cursive;
   color: #fff;
   text-align: center;
   margin: 0;
 }
+
 .navbar li {
   display: inline-block;
   background-color: #713837;
   padding: .6em;
   margin: .3em;
+  border: 3px solid #713837;
+  border-radius: 10px;
 }
 
 a {
@@ -31,10 +37,18 @@ a {
 }
 
 ul {
+  margin: .3em;
   padding: 0;
   text-align: center;
+  list-style-type: none;
 }
 
 li:hover {
+  background-color: #f33;
+  border: 3px solid #f33;
+  border-radius: 10px;
+}
+
+a:hover {
   background-color: #f33;
 }
