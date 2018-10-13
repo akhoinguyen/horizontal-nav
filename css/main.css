@@ -16,8 +16,8 @@ body {
 }
 
 h1 {
-  font-family: "Bevan", serif;
   color: #fff;
+  font-family: Bevan, serif;
   text-align: center;
   margin: 0;
 }
